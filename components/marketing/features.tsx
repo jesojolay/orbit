@@ -96,10 +96,10 @@ export function Features() {
       id="features"
       className="relative isolate overflow-hidden border-b border-border/60"
     >
-      {/* Orbital field: the hero's solar system continues down the page,
-          floating in the open space above the feature grid, its lower arcs
-          dipping behind the cards. Hidden on mobile. */}
-      <OrbitSystem className="-top-28 -right-20 -z-10 hidden size-[28rem] opacity-70 lg:block" />
+      {/* Orbital field: the hero's solar system continues down the page —
+          same top-right placement, arcing in the open space beside the
+          heading and dipping behind the cards. Hidden on mobile. */}
+      <OrbitSystem className="-top-32 right-8 -z-10 hidden size-[26rem] opacity-80 lg:block" />
       <div className="mx-auto w-full max-w-7xl px-4 py-20 sm:px-6 sm:py-24">
         <Reveal>
           <div className="max-w-2xl">

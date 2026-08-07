@@ -15,13 +15,13 @@ export function CtaSection() {
       />
       <div className="mx-auto flex w-full max-w-7xl flex-col items-center px-4 py-24 text-center sm:px-6 sm:py-28">
         <Reveal>
-          {/* Orbit mark: the hero's solar system scaled to a small rotating
-              mark above the closing CTA. Same rings, same speeds — one field. */}
+          {/* Orbit mark: the hero's solar system scaled to a rotating mark
+              above the closing CTA. Same rings, same speeds — one field. */}
           <div
-            className="relative mb-10 flex size-32 items-center justify-center"
+            className="relative mb-10 flex size-36 items-center justify-center"
             aria-hidden="true"
           >
-            <OrbitSystem className="size-32" scale={0.28} />
+            <OrbitSystem className="size-36" scale={0.36} />
           </div>
         </Reveal>
         <Reveal delay={60}>

@@ -17,7 +17,7 @@ export default function AuthLayout({ children }: { children: React.ReactNode }) 
       {/* Orbital field: the marketing hero's solar system, quieted down, so
           the public auth surfaces share the same living space. -z-10 keeps it
           behind the card and wordmark. */}
-      <OrbitSystem className="-top-28 right-8 -z-10 hidden size-[34rem] opacity-70 lg:block" />
+      <OrbitSystem className="-top-24 right-4 -z-10 hidden size-[30rem] opacity-80 lg:block" />
       <main className="flex min-h-[100dvh] items-center justify-center px-4 py-12 sm:px-6">
         <div className="w-full max-w-sm">
           <Link href="/" className="mb-6 flex items-center justify-center gap-2">

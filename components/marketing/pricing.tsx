@@ -107,10 +107,10 @@ export function Pricing() {
       id="pricing"
       className="relative isolate overflow-hidden border-b border-border/60"
     >
-      {/* Counterpart to the hero/features orbit: a quieter system in the
-          lower-left so the field never competes with the price cards. Hidden
+      {/* Counterpart to the hero/features orbit: a system arcing up from the
+          lower-left, balancing the page and framing the price cards. Hidden
           on mobile. */}
-      <OrbitSystem className="-bottom-32 -left-24 -z-10 hidden size-[26rem] opacity-60 lg:block" />
+      <OrbitSystem className="-bottom-24 -left-8 -z-10 hidden size-[24rem] opacity-80 lg:block" />
       <div className="mx-auto w-full max-w-7xl px-4 py-20 sm:px-6 sm:py-24">
         <Reveal>
           <div className="max-w-2xl">
